@@ -336,12 +336,11 @@ section article img {
 
 /* Aboutpage */
 .aboutp {
-    max-width: 35rem;
+    max-width: 28rem;
     font-size: 1rem;
     line-height: 1.5;
     padding-top: 1rem;
 }
-
 
 @media only screen and (min-width: 600px) {
     .aboutp {
@@ -414,6 +413,7 @@ section article img {
 }
 
 .contactimg {
+    max-width: 28rem;
     width: 100%;
     padding: 0.5rem 0rem;
     margin: 0 auto;

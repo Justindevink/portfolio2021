@@ -334,6 +334,53 @@ section article img {
     }
 }
 
+.videowrapper {
+    position: relative;
+    height: 15.75rem;
+    width: 28rem;
+}
+
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media only screen and (min-width: 600px) {
+    .videowrapper {
+        position: relative;
+        height: 19.688rem;
+        width: 35rem;
+    }
+    
+    .videowrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+}
+
+@media only screen and (min-width: 1147px) {
+    .videowrapper {
+        position: relative;
+        /* padding-bottom: 38.05%; */
+        height: 28.125rem;
+        width: 50rem;
+    }
+    
+    .videowrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+}
+
 /* Aboutpage */
 .aboutp {
     max-width: 28rem;
